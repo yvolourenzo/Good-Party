@@ -1,0 +1,47 @@
+/**/
+.tittle{
+  text-align: center;
+  color: white;
+}
+label{
+  color: white;
+  font-family:'Aaargh';
+}
+input{
+  width: 90%;
+  font-family:'Aaargh';
+}
+a{
+  color: white;
+  font-family:'Aaargh';
+}
+h3{
+  font-family:'Aaargh';
+}
+h4{
+  font-family:'Aaargh';
+}
+.vincule {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 40px;
+  margin-top: 5%;
+}
+#imgico{
+  height: 70px;
+  margin-top: 65%;
+}
+#logar{
+  background-color:  #FF5C72;
+  color: white;
+  border-style: none;
+  font-size: 18px;
+  margin-top: 5%;
+}
+@font-face { 
+   font-family: 'Aaargh';
+   src: url('/fonts/Aaargh.ttf');
+   src: local('Aaargh'), local('Aaargh'), url('/fonts/Aaargh.ttf') format('truetype');
+}
+
