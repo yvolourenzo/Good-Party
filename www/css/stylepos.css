@@ -1,0 +1,36 @@
+/**/
+#bar{
+  margin-top: 3%;
+  border-style: none;
+  border-radius: 20px;
+  height: 30px;
+  font-size: 18px;
+}
+.barra{
+  background-color: #FFA8B4;
+}
+#quadrinho{
+  background-color: transparent;
+  border-style: none;
+  margin-top: 10%;
+  border-radius: 20px;
+}
+#lupa{
+  background-color: transparent;
+  border-style: none;
+  margin-top: 20%;
+  margin-right: 30%;
+  width: 20%;
+}
+#icone{
+  background-color: transparent;
+  border-style: none;
+  padding: 5px;
+  margin-left: 5%;
+}
+@font-face { 
+   font-family: 'Aaargh';
+   src: url('/fonts/Aaargh.ttf');
+   src: local('Aaargh'), local('Aaargh'), url('/fonts/Aaargh.ttf') format('truetype');
+}
+
