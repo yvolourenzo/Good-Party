@@ -1,0 +1,30 @@
+/* This is a CSS file */
+.barra{
+  background-color: #FFA8B4;
+}
+ .fechar{
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: transparent;
+  margin-left: 2%;
+  color: white;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 5%;  
+  border-radius: 20px;
+  height: 40px;
+  margin-top: 1%;
+}
+
+button:focus{
+  outline: thin dotted;
+  outline: 0px auto -webkit-focus-ring-color;
+  outline-offset: 0px;
+}
+h3{
+  margin-top: 4%;
+  color: white;
+}
+
