@@ -12,19 +12,34 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/stylecarrinho.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body>
-     <div class="container">
+     <div class="container" >
        <div class="row barra">
          <div class="col-xs-3">
            <button class="fechar" onclick="fechar()"><i class="fa fa-close"></i></button>
          </div>
          <div class="col-xs-9">
-           <h3>Carrinho</h3>
+           <h2>Carrinho</h2>
          </div>
        </div>
       <form class="" method=""> 
-       <div class="">
+       <div class="row frete">
+         <div class="col-xs-9" >
+           <h4 class="fret">Frete e Pagamento</h4>
+         </div>
+         <div class="col-xs-3">
+           <button class="frete" onclick="frete()"><i class="glyphicon glyphicon-menu-right"></i></button>
+         </div>
+     </div>
+     <div class="row presente">
+       <div class="col-xs-9">
+          <h4 class="enviar" value="presente">Enviar para</h4>
+         </div>
+         <div class="col-xs-3">
+           <button class="presente" onclick="presente()"><i class="glyphicon glyphicon-menu-right"></i></button>
+         </div>
      </div>
      </form>
 </body>

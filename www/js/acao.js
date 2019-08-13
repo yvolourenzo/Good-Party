@@ -9,4 +9,10 @@ function itensCarrinho(){
 function fechar(){
   location.href = "poslogin.html";
 }
+function abrirmenu() {
+  document.getElementById("mySidebar").style.display = "block";
+}
 
+function fechar() {
+  document.getElementById("mySidebar").style.display = "none";
+}
