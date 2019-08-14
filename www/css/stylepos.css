@@ -116,7 +116,7 @@ form.pesquisa::after {
   outline-offset: 0px;
 }
 #sair{
-  margin-top: 50%;
+  margin-top: 80%;
   background-color:#80545A;
   text-align: center; 
 }
@@ -126,6 +126,22 @@ form.pesquisa::after {
 #histo{
   background-color: #CC495B;
 }
+#x
+{
+  width:20%;
+  display:block;
+  padding:8px 16px;
+  text-align:justify;
+  border:none;
+  white-space:normal;
+  float:none;
+  outline:0;
+  background-color:#CC495B;
+  font-size: px;
+  color: white;
+  font-family: 'Aaargh';
+}
+
 .bar-block .bar-item
 {
   width:100%;
@@ -141,6 +157,7 @@ form.pesquisa::after {
   color: white;
   font-family: 'Aaargh';
 }
+
 
 
 

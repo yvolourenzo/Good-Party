@@ -6,7 +6,7 @@ function itensCarrinho(){
   location.href = "itensCarrinho.html";
 }
 // Funções pagina carrinho
-function fechar(){
+function fechar2(){
   location.href = "poslogin.html";
 }
 function abrirmenu() {
