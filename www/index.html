@@ -11,30 +11,26 @@
   <link rel="stylesheet" href="components/loader.css">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
  
 </head>
-<body style=" background-image: url(img/walbrownie.jpg);">
+<body style=" background-image: url(img/Morango.png);">
    <div class="container">
      <div class="row">
        <div class="col-xs-12">
          <div class="form-group">
            <h3 class="tittle">Bem vindo ao Good Party!</h3>
            <h4 class="tittle">Sua festa Nossa alegria</h4>
-         <label>Login</label>
-         <input type="text" class="form-control" id="Login"></input>
+        <form>
+         <input type="text" class="form-control impu" id="Login" placeholder="Email"></input>
          </div>
        </div>
      </div>
      <div class="row">
        <div class="col-xs-12">
          <div class="form-group">
-           <label>Senha</label>
-           <input type="password" class="form-control" id="senha"></input>
-           <input type="submit" class="form-control" id="logar" onclick="poslogin()"></input>
-           </br>
-           <a href="">Esqueceu a Senha ? Clique aqui</a>
-           </br>
-           <a href="">Não tem conta ? Cadastre-se</a>
+           <input type="password" class="form-control impu" id="senha" placeholder="Senha"></input>
+           <button type="submit" class="form-control" id="logar" ><a href="poslogin.html">Entrar</a></button>
          </div>
        </div>
        </div>
@@ -44,16 +40,13 @@
          </div>
        </div>
        <div class="row" class="redes">
-         <div class="col-xs-4" >
-           <a><img src="img/f.png" id="imgico"></a>
+         <div class="col-xs-6" >
+           <button type="submit" class="form-control impu" id="facebook"><i class="fa fa-facebook"></i></button>
          </div>
-         <div class="col-xs-4" >
-           <a><img src="img/g.png" id="imgico"></a>
-         </div>
-         <div class="col-xs-4" >
-           <a><img src="img/t.png" id="imgico"></a>
-         </div>                  
-       </div>
+         <div class="col-xs-6" >
+           <button type="submit" style="background-image: url('img/f.png')" class="form-control impu f" id="google"><i class="fa fa-google"></i></button>
+         </div> 
+      <form> 
    </div>
 </body>
 </html>

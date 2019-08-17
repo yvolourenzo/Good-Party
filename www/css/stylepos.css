@@ -62,13 +62,12 @@ form.pesquisa input[type=text] {
   border: none;
   border-radius: 15px;
   float: left;
-  width: 80%;
+  width: 60%;
   background: white;
   height: 30px;
   margin-bottom: 5%;
   margin-top: 3%;
 }
-
 form.pesquisa button {
   float: left;
   width: 10%;
@@ -81,15 +80,15 @@ form.pesquisa button {
   text-decoration:none; 
 }
 #ham{
+  display:block;
+  padding:8px 16px;
+  text-align:justify;
   float: left;
-  width: 10%;
   background: transparent;
-  margin-left: 2%;
   color: white;
-  font-size: 26px;
+  font-size: 30px;
   border: none;  
   height: 30px;
-  margin-top: 10%;
 }
 form.pesquisa::after {
   content: "";
@@ -99,10 +98,11 @@ form.pesquisa::after {
 .sidebar{
   height:100%;
   width:250px;
-  background-color:#80545A;
+  background-color:rgba(128, 84, 90, 0.877);
   position:fixed!important;
   z-index:1;
   overflow:auto;
+  border-radius: 0px 30px 30px 0px;
   }
 #perfil {
   background-color: #FFA8B4;

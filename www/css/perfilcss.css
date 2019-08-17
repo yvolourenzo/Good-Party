@@ -1,0 +1,41 @@
+/* This is a CSS file */
+#jubs{
+  margin-left: 15%;
+  height: 200px;
+  border-radius: 120px;
+  margin-top: 10%;
+}
+p{
+  text-align: center;
+  margin-top: 2%;
+  color: white;
+  font-size: 20px;
+}
+body{
+  background-color: #80545A;
+}
+.alterar{
+  background-color:  #FF5C72;
+}
+#alterar{
+  text-align: center;
+}
+#alterar:hover {
+  background-color:  #FF5C72;
+}
+.bar-item
+{
+  width:100%;
+  display:block;
+  padding:8px 16px;
+  text-align:justify;
+  border:none;
+  white-space:normal;
+  float:none;
+  outline:0;
+  background-color:  #FF5C72;
+  font-size: 26px;
+  color: white;
+  font-family: 'Aaargh';
+
+}
