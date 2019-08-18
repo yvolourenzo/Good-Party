@@ -1,4 +1,14 @@
 /**/
+body{
+  background-size:100%;  
+  min-height: 300px;
+}
+.info{
+  color: white;
+  margin-top: 0px;
+  font-size: 18px;
+  padding: 0px;
+}
 i{
   color: white;
   font-size: 40px;
@@ -9,60 +19,70 @@ i{
 }
 input{
   width: 90%;
-  font-family:'Aaargh';
   margin-top: 2%;
-}
-#facebook{
-  background: #3b5998;
-  border:2px solid #3b5998;  
-}
-#google{
-  background: #dd4b39;
-  border:2px solid #dd4b39;  
 }
 .impu{
   outline: none;
   border:2px solid white;
-  background: transparent;
+  background: rgba(255, 255, 255, 0.829);
   border-radius: 20px;
+  border-style: none;
   height: 40px;
   font-size: 18px;
+
 }
 #Login{
   margin-top: 30px;
 }
 input.impu:active, input.impu:focus{
-color: white;
+color: rgb(0, 0, 0);
 }
 a{
   color: white;
-  font-family:'Aaargh';
   font-size: 18px;
 }
 h3{
-  font-family:'Aaargh';
+  margin-top: 10px;
 }
-h4{
-  font-family:'Aaargh';
-}
-.vincule {
+#cadastrar{
+  background-color:  #CC495B;
   color: white;
-  text-align: center;
-}
-#imgico{
-  height: 70px;
-  margin-top: 60%;
+  border-style: none;
+  font-size: 18px;
+  margin-top: 3%;
+  border-radius: 20px;
+  width: 80%;
+  margin-left: 10%;
 }
 #logar{
   background-color:  #FF5C72;
   color: white;
   border-style: none;
   font-size: 18px;
-  margin-top: 5%;
+  margin-top: 10%;
   border-radius: 20px;
+  width: 80%;
+  margin-left: 10%;
 }
-@font-face { 
-   font-family: 'Aaargh';
-   src: url('/fonts/Aaargh.ttf');
-   src: local('Aaargh'), local('Aaargh'), url('/fonts/Aaargh.ttf') format('truetype');
+#esqueceu{
+  background-color:  #802E39;
+  color: white;
+  border-style: none;
+  font-size: 18px;
+  margin-top: 1%;
+  border-radius: 20px;
+  width: 80%;
+  margin-left: 10%;
 }
+.bar{
+  background: #FF5C72;
+  border-radius: 0px 0px 120px 0px;
+  height: 60px;
+}
+.login-senha{
+  margin-top: 20%;
+}
+#senha{
+  margin-top: 10%;
+}
+

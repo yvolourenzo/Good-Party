@@ -1,0 +1,11 @@
+/* This is a CSS file */
+.bar{
+  background: #FF5C72;
+  border-radius: 0px 0px 120px 0px;
+  height: 60px;
+}
+.tittle{
+  text-align: center;
+  color: white;
+}
+
