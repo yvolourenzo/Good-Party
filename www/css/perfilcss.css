@@ -14,8 +14,17 @@ p{
 body{
   background-color: #80545A;
 }
+.cadastrar{
+  background-color:  #CC495B;
+}
 .alterar{
   background-color:  #FF5C72;
+}
+#cadastroProduto{
+  background-color:  #CC495B;
+}
+#cadastroProduto{
+  text-align: center;
 }
 #alterar{
   text-align: center;

@@ -18,15 +18,7 @@
 .barra{
   background-color: #FFA8B4;
 }
-#quadrinho{
-  background-color: transparent;
-  border-style: none;
-  margin-top: 10%;
-  margin-left: -2%;
-  border-radius: 30px;
-  padding: 0px;
-  box-shadow: 0 0 1em rgba(255, 168, 180, 0.37);
-}
+
 button:focus{
   outline: thin dotted;
   outline: 0px auto -webkit-focus-ring-color;
@@ -120,7 +112,7 @@ form.pesquisa::after {
   background-color:#80545A;
   text-align: center; 
 }
-#desejo{
+#produtos{
   background-color: #FF5C72;
 }
 #histo{
@@ -157,6 +149,10 @@ form.pesquisa::after {
   color: white;
   font-family: 'Aaargh';
 }
+body{
+  background-color: #573e42;
+}
+
 
 
 
