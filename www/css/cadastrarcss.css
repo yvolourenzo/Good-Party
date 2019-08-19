@@ -2,10 +2,53 @@
 .bar{
   background: #FF5C72;
   border-radius: 0px 0px 120px 0px;
-  height: 60px;
+  height: 45px;
+  margin-bottom: 10%;
 }
 .tittle{
   text-align: center;
   color: white;
+}
+body{
+  background: rgb(100, 64, 69);
+}
+.impu{
+  outline: none;
+  border:2px solid white;
+  background: rgba(255, 255, 255, 0.829);
+  border-radius: 20px;
+  border-style: none;
+  height: 40px;
+  font-size: 18px;
+}
+h3{
+  margin-top: 10px;
+}
+#Finalizar{
+  background-color:  #802E39;
+  color: white;
+  border-style: none;
+  font-size: 18px;
+  margin-top: 1%;
+  border-radius: 20px;
+  width: 80%;
+  margin-left: 10%;
+}
+a{
+  color: white;
+}
+#voltar
+{
+  width:20%;
+  display:block;
+  padding:8px 16px;
+  text-align:justify;
+  border:none;
+  white-space:normal;
+  float:none;
+  outline:0;
+  background-color:transparent;
+  color: white;
+  font-family: 'Aaargh';
 }
 
