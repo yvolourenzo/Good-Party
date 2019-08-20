@@ -15,7 +15,7 @@ body{
 .impu{
   outline: none;
   border:2px solid white;
-  background: rgba(255, 255, 255, 0.829);
+  background: rgb(255, 255, 255);
   border-radius: 20px;
   border-style: none;
   height: 40px;
@@ -50,5 +50,8 @@ a{
   background-color:transparent;
   color: white;
   font-family: 'Aaargh';
+}
+.card-body{
+  background:white;
 }
 
