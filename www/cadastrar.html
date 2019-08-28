@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="components/loader.css">
     <script src="js/acao.js"></script>
     <script src="js/jquery-3.4.1.min.js"></script>
+  
 
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/cadastrarcss.css">  
@@ -23,49 +24,49 @@
          <h3 class="tittle">Cadastrar</h3>
        </div>
      </div>
-     <div class="row">
+     <div class="row" id="Div1">
        <div class="col-xs-12">
          <div class="form-group">
            <input type="text" class="form-control impu" id="nome" placeholder="Nome" maxlength="15"></input>
            </div>
        </div>
      </div>
-     <div class="row">
+     <div class="row" id="Div1">
        <div class="col-xs-12">
          <div class="form-group">
          <input type="text" class="form-control impu" id="login" placeholder="Login" maxlength="15"></input>            
          </div>
        </div> 
      </div>
-     <div class="row">
+     <div class="row" id="Div2">
        <div class="col-xs-12">
          <div class="form-group">
          <input type="password" class="form-control impu" id="senha" placeholder="Senha" maxlength="15"></input>           
          </div>
        </div>
      </div>
-     <div class="row">
+     <div class="row" id="Div2">
        <div class="col-xs-12">
          <div class="form-group">
            <input type="password" class="form-control impu" id="senhac" placeholder="Confirmação de Senha" maxlength="15"></input>
            </div>
        </div>
      </div>
-     <div class="row">
+     <div class="row" id="Div1">
        <div class="col-xs-12">
          <div class="form-group">
            <input type="text" class="form-control impu" id="email" placeholder="Email" maxlength="15"></input>
            </div>
        </div>
      </div>  
-     <div class="row">
+     <div class="row" id="Div3">
        <div class="col-xs-12">
          <div class="form-group">
            <input type="text" class="form-control impu" id="tel" placeholder="Telefone" maxlength="15"></input>
          </div>
        </div>
      </div>
-     <div class="row">
+     <div class="row" id="Div3">
        <div class="col-xs-12">
          <div class="form-group">
          <select name="estados-brasil" class="form-control impu">
@@ -100,7 +101,7 @@
          </div>
        </div>
      </div>
-     <div class="row">
+     <div class="row" id="Div3">
        <div class="col-xs-12">
          <input type="text" class="form-control impu" id="tel" placeholder="Endereço" maxlength="15"></input>
        </div>
@@ -109,7 +110,7 @@
        <div class="col-xs-12">
          <div class="form-group">
            </br>
-           <button type="submit" class="form-control" id="Finalizar" ><a href="index.html">Finalizar</a></button>
+           <button type="submit" class="form-control" id="Finalizar" onclick="myFunction()"></button>
          </div>
        </div>
      </div>
