@@ -12,28 +12,11 @@
 body{
   background: rgb(100, 64, 69);
 }
-.impu{
-  outline: none;
-  border:2px solid white;
-  background: rgb(255, 255, 255);
-  border-radius: 20px;
-  border-style: none;
-  height: 40px;
-  font-size: 18px;
-}
+
 h3{
   margin-top: 10px;
 }
-#Finalizar{
-  background-color:  #802E39;
-  color: white;
-  border-style: none;
-  font-size: 18px;
-  margin-top: 1%;
-  border-radius: 20px;
-  width: 80%;
-  margin-left: 10%;
-}
+
 a{
   color: white;
 }
@@ -51,7 +34,11 @@ a{
   color: white;
   font-family: 'Aaargh';
 }
-.card-body{
-  background:white;
+.display{
+  display:none;
 }
+.displayB{
+  display: block;
+}
+
 

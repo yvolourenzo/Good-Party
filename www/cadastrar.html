@@ -5,10 +5,6 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
     <link rel="stylesheet" href="components/loader.css">
-    <script src="js/acao.js"></script>
-    <script src="js/jquery-3.4.1.min.js"></script>
-  
-
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/cadastrarcss.css">  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
@@ -24,96 +20,41 @@
          <h3 class="tittle">Cadastrar</h3>
        </div>
      </div>
-     <div class="row" id="Div1">
-       <div class="col-xs-12">
-         <div class="form-group">
-           <input type="text" class="form-control impu" id="nome" placeholder="Nome" maxlength="15"></input>
-           </div>
+     <div class="row displayB" id="etapa1">
+       <div class="col-xs-12">    
+        <input class="form-group" placeholder="Nome" id="Nome" >
+         <input class="form-group" placeholder="Senha" >
+          <input class="form-group" placeholder="Confirmar Senha" >
        </div>
      </div>
-     <div class="row" id="Div1">
-       <div class="col-xs-12">
-         <div class="form-group">
-         <input type="text" class="form-control impu" id="login" placeholder="Login" maxlength="15"></input>            
-         </div>
-       </div> 
-     </div>
-     <div class="row" id="Div2">
-       <div class="col-xs-12">
-         <div class="form-group">
-         <input type="password" class="form-control impu" id="senha" placeholder="Senha" maxlength="15"></input>           
-         </div>
+      <div class="row display" id="etapa2">
+       <div class="col-xs-12">    
+        <input class="form-group" placeholder="3" >
+         <input class="form-group" placeholder="4">
+          <input class="form-group" placeholder="5">
        </div>
      </div>
-     <div class="row" id="Div2">
-       <div class="col-xs-12">
-         <div class="form-group">
-           <input type="password" class="form-control impu" id="senhac" placeholder="Confirmação de Senha" maxlength="15"></input>
-           </div>
+     <div class="row display" id="etapa3">
+       <div class="col-xs-12">    
+        <input class="form-group" placeholder="6" >
+         <input class="form-group" placeholder="7">
+          <input class="form-group" placeholder="8" >
+          <input class="form-group display" placeholder="Digite seu CPF" id="CPF">
+          <input class="form-group display" placeholder="Digite seu CPNJ" 
+          id="CNPJ">
+          <input type="radio" id="Comprador" name="opcao" value="Comprador"
+          <label>Comprador</label>
+          <input type="radio" id="Vendedor" name="opcao"
+          value="Vendedor">
+          <label>Vendedor</label>
        </div>
      </div>
-     <div class="row" id="Div1">
-       <div class="col-xs-12">
-         <div class="form-group">
-           <input type="text" class="form-control impu" id="email" placeholder="Email" maxlength="15"></input>
-           </div>
-       </div>
-     </div>  
-     <div class="row" id="Div3">
-       <div class="col-xs-12">
-         <div class="form-group">
-           <input type="text" class="form-control impu" id="tel" placeholder="Telefone" maxlength="15"></input>
-         </div>
-       </div>
-     </div>
-     <div class="row" id="Div3">
-       <div class="col-xs-12">
-         <div class="form-group">
-         <select name="estados-brasil" class="form-control impu">
-	          <option id="AC">Acre</option>
-           	<option id="AL">Alagoas</option>
-          	<option id="AP">Amapá</option>
-          	<option id="AM">Amazonas</option>
-          	<option id="BA">Bahia</option>
-	          <option id="CE">Ceará</option>
-	          <option id="DF">Distrito Federal</option>
-	          <option id="ES">Espírito Santo</option>
-          	<option id="GO">Goiás</option>
-	          <option id="MA">Maranhão</option>
-	          <option id="MT">Mato Grosso</option>
-	          <option id="MS">Mato Grosso do Sul</option>
-           	<option id="MG">Minas Gerais</option>
-	          <option id="PA">Pará</option>
-	          <option id="PB">Paraíba</option>
-	          <option id="PR">Paraná</option>
-          	<option id="PE">Pernambuco</option>
-	          <option id="PI">Piauí</option>
-	          <option id="RJ">Rio de Janeiro</option>
-	          <option id="RN">Rio Grande do Norte</option>
-	          <option id="RS">Rio Grande do Sul</option>
-	          <option id="RO">Rondônia</option>
-          	<option id="RR">Roraima</option>
-	          <option id="SC">Santa Catarina</option>
-	          <option id="SP">São Paulo</option>
-          	<option id="SE">Sergipe</option>
-	          <option id="TO">Tocantins</option>
-        </select>
-         </div>
-       </div>
-     </div>
-     <div class="row" id="Div3">
-       <div class="col-xs-12">
-         <input type="text" class="form-control impu" id="tel" placeholder="Endereço" maxlength="15"></input>
-       </div>
-     </div>
-     <div class="row">
-       <div class="col-xs-12">
-         <div class="form-group">
-           </br>
-           <button type="submit" class="form-control" id="Finalizar" onclick="myFunction()"></button>
-         </div>
-       </div>
-     </div>
-   </div>
+     <button class="display" id="anterior">Anterior</button>
+     <button class="display" id="anterior2">Anterior</button>
+     <button class="displayB"id="enviar" >Proximo</button>
+     <button class="display" id="enviar2" >Proximo</button>
+     <button class="display" id="finalizar">Finalizar</button>
 </body>
 </html>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/cadastrar.js"></script>
