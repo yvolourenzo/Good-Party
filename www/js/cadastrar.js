@@ -57,13 +57,15 @@ $(function(){
     });  
     // botão de finalizar
     $('#finalizar').click(function(){
-      if($('#Nome').is(':empty')){
-        alert('Por Favor Preencha o Campo Nome');
-      }
-      else{
-        $(location).attr('href', 'index.html');
-      }  
-    });
+      if($('#senha').val() != $('#senhac').val()){
+        alert('As senhas estão diferentes');
+     }
+     else if ($('#CPF').hasClass('displayB') && $('#CNPJ').hasClass('display') ) {
+        $(location).attr('href', 'cliente.html');
+     }
+      else if ($('#CNPJ').hasClass('displayB') && $('#CPF').hasClass('display') ) {
+        $(location).attr('href', 'vendedor.html');
+     }  
   });
   // funções dos radios buttons
   // comprador
@@ -81,9 +83,5 @@ $(function(){
         $('#CPF').addClass('display');
     }
   });
-  
-  
 });
- 
-
-
+});
