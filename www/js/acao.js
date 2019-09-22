@@ -41,6 +41,23 @@ function myFunction() {
     x.style.display = "none";
   }
 }
+$('#adicionarLink').click(function(){
+  $(location).attr('href', 'addproduto.html');
+});
+
+$('#voltarV').click(function(){
+  $(location).attr('href', 'vendedor.html');
+});
+
+$('#adicionar').click(function(){
+  $(location).attr('href', 'vendedor.html');
+});
+
+$('#cancelar').click(function(){
+  $(location).attr('href', 'vendedor.html');
+});
+
+
 
 
 

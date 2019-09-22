@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
    <script src="components/loader.js"></script>
-   <script src="js/acao.js"></script>
-   <script src="js/jquery-3.4.1.min.js"></script>
+
     
     <link rel="stylesheet" href="components/loader.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/stylepos.css">    
+    <link rel="stylesheet" href="css/stylepos.css">
+    <link rel="stylesheet" href="css/vendedor.css">    
 </head>
 <body>
    <div class="container">
@@ -25,12 +25,13 @@
            <a href="historicodeC.html" class="bar-item button" id="histo">Historico de Vendas</a>
            <a href="index.html" class="bar-item button" id="sair">Sair</a>
          </div> 
-         <button type="" id="ham" onclick="abrirmenu()"><i class="glyphicon glyphicon-menu-hamburger"></i></button> 
+         <button type="" id="ham" onclick="abrirmenu()"><i class="glyphicon glyphicon-menu-hamburger"></i><label class="meus">Meus Produtos</label></button> 
+        
    </div>
-   <div class="row adicionar">
-     <div class="col-xs-12">
-       
-        <button><i class="	glyphicon glyphicon-plus"></i></button>
+   <div class="row">
+     <div class="col-xs-12" >
+        <button id="adicionarLink"><label>Adicionar Produto</label><br><i class="	glyphicon glyphicon-plus"></i></button>
+		<div id="mascara"></div>
      </div>
    </div>
    <div class="row quadradinhos">
@@ -52,3 +53,5 @@
 </div>  
 </body>
 </html>
+   <script src="js/jquery-3.4.1.min.js"></script>
+       <script src="js/acao.js"></script>

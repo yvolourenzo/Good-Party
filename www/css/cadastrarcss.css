@@ -40,5 +40,25 @@ a{
 .displayB{
   display: block;
 }
-
+.impu{
+  outline: none;
+  border:2px solid white;
+  background: rgb(255, 255, 255);
+  border-radius: 20px;
+  border-style: none;
+  height: 40px;
+  font-size: 18px;
+  width: 100%;
+  
+}
+.botao{
+  outline: none;
+  background-color:  #FF5C72;
+  color: white;
+  border-style: none;
+  font-size: 18px;
+  border-radius: 20px;
+  width: 100%;
+  margin-top: 25%;
+}
 

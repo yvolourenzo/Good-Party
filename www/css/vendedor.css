@@ -1,0 +1,14 @@
+/* This is a CSS file */
+#adicionarLink{
+   margin-top: 10px;
+   background-color: #57B36A;
+   width: 100%;
+   border-style: none;
+   color: white;
+   font-size: 20px;
+   border-radius: 10px;
+}
+.meus{
+  margin-left: 50px;
+  font-size: 22px;
+}
