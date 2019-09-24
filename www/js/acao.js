@@ -2,8 +2,11 @@
 function bolos(){
   location.href = "bolos.html";
 }
-function poslogin() {
-  location.href = "poslogin.html";
+function voltarPerfilV(){
+  location.href = "perfilVendedor.html";
+}
+function voltarVendedor() {
+  location.href = "vendedor.html";
 }
 function voltarMenu() {
   location.href = "perfil.html";
@@ -56,6 +59,34 @@ $('#adicionar').click(function(){
 $('#cancelar').click(function(){
   $(location).attr('href', 'vendedor.html');
 });
+
+$('#cancelar').click(function(){
+  $(location).attr('href', 'vendedor.html');
+});
+
+$('#logar').click(function(){
+  if($('#login').val() == 'vendedor'){
+     $(location).attr('href','vendedor.html');
+  }
+   else if($('#login').val() == 'cliente'){
+     $(location).attr('href','cliente.html');
+   }
+   else if($('#login').val() == 'Cliente'){
+     $(location).attr('href','cliente.html');
+   }
+   else if($('#login').val() == 'Vendedor'){
+     $(location).attr('href','vendedor.html');
+  }
+});
+
+$('#cadastrar').click(function(){
+  $(location).attr('href','cadastrar.html');
+});
+
+
+
+
+
 
 
 

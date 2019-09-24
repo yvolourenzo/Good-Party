@@ -8,16 +8,16 @@
     <link rel="stylesheet" href="css/bootstrap.css">    
     <link rel="stylesheet" href="css/perfilcss.css"> 
     <link rel="stylesheet" href="css/cadastrarcss.css">  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/perfilV.css">
 
-    <script src="components/loader.js"></script>
-    <script src="js/acao.js"></script>
+    
 
 </head>
 <body>
      <div class="container">
        <div class="row bar">
        <div class="col-xs-2">
-         <button id="voltar" style="font-size:24px" onclick="poslogin()" ><i class="fa fa-mail-reply"></i></button>
+         <button id="voltar" style="font-size:24px" onclick="voltarVendedor()" ><i class="fa fa-mail-reply"></i></button>
        </div>
        <div class="col-xs-10">
          <h3 class="tittle">Perfil</h3>
@@ -33,24 +33,14 @@
            <p id="nome">Jubiscleusa</p>
          </div>
        </div>
-       <div class="row alterar">
-         <div class="col-xs-1">
+       <div class="row">
+         <div class="col-xs-12">
+           <button class="botao" onclick="editarVendedor()">Editar Informações</button>
          </div>
-         <div class="col-xs-10">
-           <a href="alterar.html" class="bar-item button" id="alterar">Editar Informações</a>
-         </div>
-         <div class="col-xs-1">
-         </div>
-         </div>
-            <div class="row cadastrar">
-         <div class="col-xs-1">
-         </div>
-         <div class="col-xs-10">
-           <a href="CadastrarProdutos.html" class="bar-item button" id="cadastroProduto">Cadastrar Produtos</a>
-         </div>
-         <div class="col-xs-1">
-         </div>
-         </div>  
+         </div> 
      </div>
 </body>
 </html>
+<script src="components/loader.js"></script>
+    <script src="js/acao.js"></script>
+      <script src="js/perfilVendedor.js"></script>

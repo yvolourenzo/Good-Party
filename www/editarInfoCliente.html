@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <link rel="stylesheet" href="components/loader.css">
+    <script src="js/acao.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/cadastrarcss.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+ 
+</head>
+<body>
+   <div class="container">
+     <div class="row bar">
+       <div class="col-xs-2">
+         <button id="voltar" style="font-size:24px" onclick="voltarPerfilV()" ><i class="fa fa-mail-reply"></i></button>
+       </div>
+       <div class="col-xs-10">
+         <h3 class="tittle">Editar Dados</h3>
+       </div>
+     </div>
+     <div class="row">
+       <div class="col-xs-12">
+         <div class="form-group">
+           <input type="text" class="form-control impu" id="nome" placeholder="Nome : Jubscleusa" maxlength="15"></input>
+           </div>
+       </div>
+     </div>
+     <div class="row">
+       <div class="col-xs-12">
+         <div class="form-group">
+         <input type="password" class="form-control impu" id="senha" placeholder="Senha" maxlength="15"></input>           
+         </div>
+       </div>
+     </div>
+     <div class="row">
+       <div class="col-xs-12">
+         <div class="form-group">
+           <input type="password" class="form-control impu" id="senhac" placeholder="Confirmação de Senha" maxlength="15"></input>
+           </div>
+       </div>
+     </div>
+     <div class="row">
+       <div class="col-xs-12">
+         <div class="form-group">
+           <input type="text" class="form-control impu" id="email" placeholder="Email" maxlength="15"></input>
+           </div>
+       </div>
+     </div>  
+     <div class="row">
+       <div class="col-xs-12">
+         <div class="form-group">
+           <input type="text" class="form-control impu" id="tel" placeholder="Telefone" maxlength="15"></input>
+         </div>
+       </div>
+     </div>
+     <div class="row">
+       <div class="col-xs-12">
+         <div class="form-group">
+         <select name="estados-brasil" class="form-control impu">
+	          <option id="AC">Acre</option>
+           	<option id="AL">Alagoas</option>
+          	<option id="AP">Amapá</option>
+          	<option id="AM">Amazonas</option>
+          	<option id="BA">Bahia</option>
+	          <option id="CE">Ceará</option>
+	          <option id="DF">Distrito Federal</option>
+	          <option id="ES">Espírito Santo</option>
+          	<option id="GO">Goiás</option>
+	          <option id="MA">Maranhão</option>
+	          <option id="MT">Mato Grosso</option>
+	          <option id="MS">Mato Grosso do Sul</option>
+           	<option id="MG">Minas Gerais</option>
+	          <option id="PA">Pará</option>
+	          <option id="PB">Paraíba</option>
+	          <option id="PR">Paraná</option>
+          	<option id="PE">Pernambuco</option>
+	          <option id="PI">Piauí</option>
+	          <option id="RJ">Rio de Janeiro</option>
+	          <option id="RN">Rio Grande do Norte</option>
+	          <option id="RS">Rio Grande do Sul</option>
+	          <option id="RO">Rondônia</option>
+          	<option id="RR">Roraima</option>
+	          <option id="SC">Santa Catarina</option>
+	          <option id="SP">São Paulo</option>
+          	<option id="SE">Sergipe</option>
+	          <option id="TO">Tocantins</option>
+        </select>
+         </div>
+       </div>
+     </div>
+     <div class="row">
+       <div class="col-xs-12">
+         <input type="text" class="form-control impu" id="tel" placeholder="Endereço" maxlength="15"></input>
+       </div>
+     </div>
+     <div class="row">
+         <div class="col-xs-6">
+           <button class="btn btn-info botao" id="cancelar">Cancelar</button>
+         </div>
+         <div class="col-xs-6">
+           <button class="btn btn-info botao" id="adicionar">Concluido</button>
+         </div>
+       </div>
+   </div>
+</body>
+</html>
+ <script src="js/jquery-3.4.1.min.js"></script>
+       <script src="js/jquery.mask.js.min"></script>
+        <script src="js/acao.js"></script>

@@ -1,0 +1,13 @@
+/* This is a CSS file */
+
+.botao{
+  outline: none;
+  background-color:  #FF5C72;
+  color: white;
+  border-style: none;
+  font-size: 18px;
+  border-radius: 20px;
+  width: 100%;
+  height: 40px;
+  margin-top: 20%;
+}

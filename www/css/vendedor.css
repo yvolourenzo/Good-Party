@@ -1,5 +1,5 @@
 /* This is a CSS file */
-#adicionarLink{
+#adicionarLin{
    margin-top: 10px;
    background-color: #57B36A;
    width: 100%;
@@ -11,4 +11,49 @@
 .meus{
   margin-left: 50px;
   font-size: 22px;
+}
+#histo{
+ background-color: #FF5C72;
+}
+.window{
+    display:none;
+    width:300px;
+    height:auto;
+    position:fixed;
+    left:0;
+    top:0;
+    background:#FFF;
+    z-index:9900;
+    border-radius:10px;
+}
+ 
+#mascara{
+    display:none;
+    position:fixed;
+    left:0;
+    top:0;
+    width: 100%;
+    z-index:9000;
+    background-color:#000;
+}
+ 
+.fechar{display:block; text-align:right;}
+
+.botao{
+  background-color:  #FF5C72;
+  color: white;
+  border-style: none;
+  font-size: 22px;
+  border-radius: 90px;
+  margin-bottom: 5px;
+}
+#exc{
+  width: 100%;
+}
+#edi{
+  width: 100%;
+}
+
+label{
+  text-align: center;
 }

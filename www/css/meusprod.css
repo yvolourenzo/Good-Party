@@ -1,4 +1,45 @@
 /* This is a CSS file */
-h3{
+
+.item{
   margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.938);
+  border-radius: 20px;
+}
+.img{
+  max-width: 1080px;
+  width: 100%;
+  height: 170px;
+  margin-top:10px;
+  border-radius: 30px;
+}
+.botaoC{
+  background-color:  #FF5C72;
+  color: white;
+  border-style: none;
+  font-size: 22px;
+  border-radius: 20px;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 5px;
+}
+.excluir{
+  background-color:  #FF5C72;
+  color: white;
+  border-style: none;
+  font-size: 22px;
+  border-radius: 20px;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 5px;
+}
+.display{
+  display:none;
+}
+.displayB{
+  display: block;
+}
+.bar{
+  background: #FF5C72;
+  border-radius: 0px 0px 120px 0px;
+  height: 60px;
 }
