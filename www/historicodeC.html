@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
     <script src="components/loader.js"></script>
-    <script src="js/acao.js"></script>
-    <script src="js/jquery-3.4.1.min.js"></script>
+    
 
     <link rel="stylesheet" href="components/loader.css">
     <link rel="stylesheet" href="css/bootstrap.css">    
@@ -15,39 +14,73 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
-<body>
+<body style="background-image:url(img/wall.jpg); backgound-size:100%;">
      <div class="container" >
        <div class="row bar">
        <div class="col-xs-2">
-         <button id="voltar" style="font-size:24px" onclick="poslogin()" ><i class="fa fa-mail-reply"></i></button>
+         <button id="voltar" style="font-size:24px" onclick="voltarCliente()" ><i class="fa fa-mail-reply"></i></button>
        </div>
        <div class="col-xs-10">
-         <h3 class="tittle">Historico de compras</h3>
+         <h3 class="tittle">Historico de Compras</h3>
        </div>
      </div>
-       <div class="row itens">
-         <div class="col-xs-6">
-           <img src="imgbolo/c.jpg" style="max-width: 1080px; width: 100%; height: 120px; margin-top:10px;">
+     <br>
+       <div class="row item" id="itemC">
+         <div class="col-xs-12">
+           <img class="img" src="imgbolo/c.jpg">
+           <tr>
+             <th><h3 style="text-align:center;">Coxinha</h3></th>
+             <th><p style="text-align:center; font-size:20px;">Vendido por : R$: 1,00 A Unidade</p></th>
+             <th><p style="text-align:center; font-size:20px;">Quantidade Vendida : 100</p></th>
+             <th><p style="text-align:center; font-size:20px;">Total : R$:100,00 </p></th>
+             <th><p style="text-align:center; font-size:20px;">Data Pedida : 23/05/2019 </p></th>
+             <th><p style="background-color:green; border-radius:20px; width:100%; color: white; text-align:center; height: 60px; font-size:20px;">Status : Entregue<br>Dia 23/05/2019</p></th>
+          </tr>
          </div>
-         <div class="col-xs-6">
-           <label>Coxinha</label>
-           <p>Quantidade : 20 Unidades</p>
-           <p>Total : 20 Reais</p>
-           <p>Data de Compra : 26/04</p>          
-            </div>
+        </div>
+         <div class="row item" id="itemR">
+         <div class="col-xs-12">
+           <img class="img" src="imgbolo/r.png">
+           <tr>
+             <th><h3 style="text-align:center;">Rabanada</h3></th>
+             <th><p style="text-align:center; font-size:20px;">Vendido por : R$: 4,00 A Dezena</p></th>
+             <th><p style="text-align:center; font-size:20px;">Quantidade Vendida : 10</p></th>
+             <th><p style="text-align:center; font-size:20px;">Total : R$:40,00 </p></th>
+             <th><p style="text-align:center; font-size:20px;">Data Pedida : 24/12/2019 </p></th>
+             <th><p id="status3" class="displayB" style="background-color:orange; border-radius:20px; width:60%; color: white; text-align:center; height: 60px; font-size:20px;">Status : A Caminho<br>Previsão 25/12/2019</p></th>
+             <th ><p  id="status2"  class="display" style="background-color:green; border-radius:20px; width:100%; color: white; text-align:center; height: 60px; font-size:20px;">Status : Entregue<br> 25/12/2019</p></th>
+          </tr>
          </div>
-         <div class="row itens">
-         <div class="col-xs-6">
-           <img src="imgbolo/r.png" style="max-width: 1080px; width: 100%; height: 120px; margin-top:10px;">
+        </div>
+       <div class="row item" id="itemD">
+         <div class="col-xs-12">
+           <img class="img" src="imgbolo/b8.jpg">
+           <tr>
+             <th><h3 style="text-align:center;">Bolo de Laranja Gourmet</h3></th>
+             <th><p style="text-align:center; font-size:20px;">Vendido por : R$: 7,00 A Centena</p></th>
+             <th><p style="text-align:center; font-size:20px;">Quantidade Vendida : 5</p></th>
+             <th><p style="text-align:center; font-size:20px;">Total : R$:35,00 </p></th>
+             <th><p style="text-align:center; font-size:20px;">Data Pedida : 24/12/2019 </p></th>
+             <th><p id="status" style="background-color:green; border-radius:20px; width:100%; color: white; text-align:center; height: 60px; font-size:20px;">Status : Entregue <br>09/04/2020</p></th>
+          </tr>
          </div>
-         <div class="col-xs-6">
-           <label>Rabanada</label>
-           <p>Quantidade : 10</p>
-           <p>Total : 10 reais</p>
-           <p>Data de Compra : 26/07</p>
-           </div>
+        </div>
+       <div class="row item" id="itemE">
+         <div class="col-xs-12">
+           <img class="img" src="imgbolo/c.jpg">
+           <tr>
+             <th><h3 style="text-align:center;">Coxinha</h3></th>
+             <th><p style="text-align:center; font-size:20px;">Vendido por : R$: 1,00 A Unidade</p></th>
+             <th><p style="text-align:center; font-size:20px;">Quantidade Vendida : 100</p></th>
+             <th><p style="text-align:center; font-size:20px;">Total : R$:100,00 </p></th>
+             <th><p style="background-color:red; border-radius:20px; width:100%; color: white; text-align:center; height: 60px; font-size:20px;">Status :<br> Cancelado Por Você</p></th>
+
+          </tr>
          </div>
+        </div>
       </div>
-    </div> 
 </body>
 </html>
+<script src="js/acao.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+       <script src="js/hVendas.js"></script>

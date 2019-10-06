@@ -8,6 +8,12 @@ function voltarPerfilV(){
 function voltarVendedor() {
   location.href = "vendedor.html";
 }
+function voltarCliente() {
+  location.href = "cliente.html";
+}
+function editarCliente() {
+  location.href = "editarInfoCliente.html";
+}
 function voltarMenu() {
   location.href = "perfil.html";
 }

@@ -5,6 +5,46 @@
   margin-top: 10px;
   background-color: rgba(255, 255, 255, 0.932);
 }
+#edi{
+background-color: red;
+color: white;
+width: 100%;
+font-size: 20px;
+border-radius: 60px;
+margin-bottom: 10px;
+}
+#exc{
+background-color: green;
+color: white;
+width: 100%;
+font-size: 20px;
+border-radius: 60px;
+margin-bottom: 10px;
+}
+#exc1{
+background-color: green;
+color: white;
+width: 100%;
+font-size: 20px;
+border-radius: 60px;
+margin-bottom: 10px;
+}
+#exc2{
+background-color: green;
+color: white;
+width: 100%;
+font-size: 20px;
+border-radius: 60px;
+margin-bottom: 10px;
+}
+#exc3{
+background-color: green;
+color: white;
+width: 100%;
+font-size: 20px;
+border-radius: 60px;
+margin-bottom: 10px;
+}
 .img{
   border-radius: 120px;
   width: 100%;
@@ -35,3 +75,26 @@ margin-left: 50px;
    margin-bottom: 10px;
  }
 
+.window{
+    display:none;
+    width:300px;
+    height:auto;
+    position:fixed;
+    left:0;
+    top:0;
+    background:#FFF;
+    z-index:9900;
+    border-radius:10px;
+}
+ 
+#mascara{
+    display:none;
+    position:fixed;
+    left:0;
+    top:0;
+    width: 100%;
+    z-index:9000;
+    background-color:#000;
+}
+ 
+.fechar{display:block; text-align:right;}

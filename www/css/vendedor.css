@@ -15,6 +15,12 @@
 #histo{
  background-color: #FF5C72;
 }
+#chat{
+ background-color: rgb(224, 68, 89);
+}
+#solic{
+ background-color: rgb(184, 49, 67);
+}
 .window{
     display:none;
     width:300px;
@@ -22,7 +28,7 @@
     position:fixed;
     left:0;
     top:0;
-    background:#FFF;
+    background:white;
     z-index:9900;
     border-radius:10px;
 }
@@ -56,4 +62,9 @@
 
 label{
   text-align: center;
+}
+#text{
+  width: 100%;
+  resize: none;
+  height: 55px;
 }

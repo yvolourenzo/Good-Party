@@ -56,17 +56,7 @@ $(function(){
     $('#finalizar').addClass('display');
     });  
     // botão de finalizar
-    $('#finalizar').click(function(){
-      if($('#senha').val() != $('#senhac').val()){
-        alert('As senhas estão diferentes');
-     }
-     else if ($('#CPF').hasClass('displayB') && $('#CNPJ').hasClass('display') ) {
-        $(location).attr('href', 'cliente.html');
-     }
-      else if ($('#CNPJ').hasClass('displayB') && $('#CPF').hasClass('display') ) {
-        $(location).attr('href', 'vendedor.html');
-     }  
-  });
+  
   // funções dos radios buttons
   // comprador
   $('input[type=radio][name=opcao]').change(function(){
