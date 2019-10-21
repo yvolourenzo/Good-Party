@@ -9,7 +9,7 @@ $(document).on("click","#finalizar",function(){
   }else{ 
     var form_data = new FormData();
      form_data.append("foto",prop);
-     form_data.append("nome",$("#nome").val());
+     form_data.append("nomeUsuario",$("#nomeUsuario").val());
      form_data.append("senha",$("#senha").val());
      form_data.append("email",$("#email").val());
      form_data.append("telefone",$("#telefone").val());
