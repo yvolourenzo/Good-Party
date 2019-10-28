@@ -1,0 +1,16 @@
+.glyphicon-star	{
+    color : #FF5C72;
+    font-size: 28px;
+ }
+ .glyphicon-piggy-bank{
+   color : #FF5C72;
+   font-size: 30px;
+   margin-left: 2%;
+ }
+ .textoDentro{
+   color: black;
+   font-size: 18px;
+ }
+ .tituloItem{
+   text-align: center
+ }

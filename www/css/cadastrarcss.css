@@ -2,9 +2,7 @@
 .bar{
   background: #FF5C72;
   border-radius: 0px 0px 120px 0px;
-  height: 45px;
- 
- 
+  height: 45px; 
 }
 .tittle{
   text-align: center;
@@ -13,18 +11,20 @@
 body{
   background-image: url('../background-imagens/choco.jpg');
   background-size: 100%;
-
 }
-
 h3{
   margin-top: 10px;
 }
-
 a{
   color: white;
 }
-#voltar
-{
+#CPF{
+  margin-top: 20px;
+}
+#CNPJ{
+  margin-top: 20px;
+}
+#voltar{
   width:20%;
   display:block;
   padding:8px 16px;
@@ -91,4 +91,13 @@ p{
   text-align: center;
   color:white;
   font-size:20px;
+}
+#etapa1{
+  margin-top: 15%;
+}
+#etapa2{
+  margin-top: 15%;
+}
+#etapa3{
+  margin-top: 15%;
 }
