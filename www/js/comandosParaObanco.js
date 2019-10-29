@@ -18,7 +18,9 @@ $(document).on("click","#finalizar",function(){
      form_data.append("estado",$("#estado").val());
      form_data.append("cpf",$("#CPF").val());
      form_data.append("cnpj",$("#CNPJ").val());
-       
+     form_data.append("cnpj",$("#CNPJ").val());
+     form_data.append("opcao",$("input.cu:checked").val());
+
         $.ajax({
         url:"https://acheulean-limps.000webhostapp.com/cadastra.php",
         method:'POST',
@@ -28,7 +30,7 @@ $(document).on("click","#finalizar",function(){
         processData:false,
         success:function(data){
           alert("Muito obrigado por se registrar!!");
-          location.reload(); 
+          location.href="index.html"; 
          }
      });
    }

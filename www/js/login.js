@@ -11,8 +11,21 @@ $(document).on("click","#logar",function(){
         contentType:false,
         cache:false,
         processData:false,
-        success:function(data){
-          location.reload(); 
+        success:function(result){
+          alert(result);
+            if(result == 3){
+               location.href="cliente.html"; 
+            }
+            if(result == 2){
+               location.href="vendedor.html"; 
+            }
+            else{
+              alert('Email ou Senha invalidos');
+            }
+    
+         },
+         error : function (request, status, error) {
+           alert(request.responseText);
          }
      });
 });
