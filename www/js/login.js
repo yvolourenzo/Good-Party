@@ -13,10 +13,10 @@ $(document).on("click","#logar",function(){
         processData:false,
         success:function(result){
           alert(result);
-            if(result == 3){
+            if(result == 'Bem vindo de volta !'){
                location.href="cliente.html"; 
             }
-            if(result == 2){
+            else if(result == 0){
                location.href="vendedor.html"; 
             }
             else{
