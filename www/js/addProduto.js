@@ -23,7 +23,7 @@ $(document).on("click","#adicionar",function(){
         processData:false,
         success:function(data){
           alert("O produto foi registrado com sucesso!!");
-          location.reload(); 
+          location.href="vendedor.html"; 
          }
      });
    }

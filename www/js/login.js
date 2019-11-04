@@ -8,24 +8,27 @@ $(document).on("click","#logar",function(){
         url:"https://acheulean-limps.000webhostapp.com/login.php",
         method:'POST',
         data:form_data,
+        dataType:'json',
         contentType:false,
         cache:false,
         processData:false,
-        success:function(result){
-          alert(result);
-            if(result == 'Bem vindo de volta !'){
-               location.href="cliente.html"; 
-            }
-            else if(result == 0){
-               location.href="vendedor.html"; 
-            }
+        success:function(data){
+          
+          if(data.nivel == "Vendedor"){
+            location.href='vendedor.html';
+          }
+          else if(data.nivel == "Comprador"){
+            location.href='cliente.html';
+          }
             else{
-              alert('Email ou Senha invalidos');
+                alert("Você ainda não é registrado , cadastre-se");
+                location.reload();
             }
     
          },
-         error : function (request, status, error) {
-           alert(request.responseText);
+
+         error: function (request, status, error) {
+                alert(request.responseText);
          }
      });
 });

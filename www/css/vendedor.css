@@ -68,3 +68,22 @@ label{
   resize: none;
   height: 55px;
 }
+ tr{
+    color:black;
+  }
+  td{
+    color:rgb(224, 68, 89);
+  }
+  #tabela{
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10%;
+  }
+  td button{
+  outline: none;
+  background-color:  #FF5C72;
+  color: white;
+  border-style: none;
+  border-radius: 20px;
+  margin-top: 1px;
+  }

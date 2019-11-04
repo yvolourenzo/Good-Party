@@ -1,8 +1,9 @@
 /* This is a CSS file */
-#jubs{
+#foto{
   margin-left: 15%;
   height: 200px;
-  border-radius: 120px;
+  width: 65%;
+  border-radius: 300px;
   margin-top: 10%;
 }
 p{
