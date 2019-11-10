@@ -28,18 +28,18 @@
            <a href="index.html" class="bar-item button" id="sair">Sair</a>
          </div> 
          <button type="" id="ham" onclick="abrirmenu()"><i class="glyphicon glyphicon-menu-hamburger"></i></button> 
-         <input id="pesquisar" style="border-radius:30px; border-style:none; height:30px; width:60%;" placeholder="Pesquisar . . ."><a style="color:white; font-size: 25px; margin-top:5px; margin-left:5px;" class="glyphicon glyphicon-search"></a>
+         <input id="campo" style="border-radius:30px; border-style:none; height:30px; width:60%;" placeholder="Pesquisar . . .">
+         <button style="color:white; font-size: 25px; margin-top:5px; margin-left:5px;" class="glyphicon glyphicon-search" id="pesquisar"></button>
         
    </div>
-   <div class="row">
+   <!-- <div class="row">
      <div class="col-xs-12" >
      </div>
-   </div>
-  <!-- BROWNIE 1 -->
-   <div class="row quadradinhos">
+   </div> -->
+  <!-- BROWNIE -->
+   <div class="row quadradinhos" id="quadradinho">
      <div class="col-xs-12">
       <img src="img/oBrownie.jpg" style="max-width: 1080px; width: 100%; height: auto; margin-top:10px; border-radius: 10px 10px 0px 0px;">
-      <p style="background-color:white; text-align:center; font-size:20px;">Brownie de Ovomaltine<br><a style="background-color:white; text-align:center;color:  #FF5C72;" href="#janela1" rel="modal">Detalhes</a></p>
       
       <div class="window" id="janela1">
          <button href="#" class="fechar botao" id="fechan"><i class="fa fa-times"></i></button>
@@ -55,77 +55,16 @@
          </div>
      </div>
 <!-- mascara para cobrir o site -->  
-<div id="mascara"></div>
-
+<!-- <div id="mascara"></div> -->
+<!-- 
      </div>
-   </div>
-    <!-- BROWNIE 2 -->
-   <div class="row quadradinhos">
-   <div class="col-xs-12">
-      <img src="img/dBrownie.jpg" style="max-width: 1080px; width: 100%; height: auto; margin-top:10px;border-radius: 10px 10px 0px 0px;">
-      <p style="background-color:white; text-align:center; font-size:20px;">Brownie de Doce de Leite<br><a style="background-color:white; text-align:center;color:  #FF5C72;"href="#janela2" rel="modal">Detalhes</a></p>
-
-      <div class="window" id="janela2">
-         <button href="#" class="fechar botao" id="fechan"><i class="fa fa-times"></i></button>
-         <img src="img/dBrownie.jpg" class="img-responsive">
-         <h4 style="text-align:center;">Brownie de Doce de leite</h4>
-         <p style="text-align:center;">R$:10,00 A Dezena</p>
-         <p style="text-align:center;">Descrição :Feito com Doce de Leite </p>
-         <div class="col-xs-6">
-
-         </div>
-         <div class="col-xs-6">
-           <button class="botao" id="exc">Solicitar</button>
-         </div>
-     </div>
-    </div>
-   </div>
-   <!-- BROWNIE 3 -->
-    <div class="row quadradinhos">
-     <div class="col-xs-12">
-       <img src="img/mBrownie.jpg" style="max-width: 1080px; width: 100%; height: auto; margin-top:10px; border-radius: 10px 10px 0px 0px;">
-       <p style="background-color:white; text-align:center; font-size:20px;">Brownie de Morango<br><a style="background-color:white; text-align:center;color:  #FF5C72;"href="#janela3" rel="modal">Detalhes</a></p>
-
-       <div class="window" id="janela3">
-         <button href="#" class="fechar botao" id="fechan"><i class="fa fa-times"></i></button>
-         <img src="img/mBrownie.jpg" class="img-responsive">
-         <h4 style="text-align:center;">Brownie de Morango</h4>
-         <p style="text-align:center;">R$:100,00 A Dezena</p>
-         <p style="text-align:center;">Descrição :Feito com Morango </p>
-         <div class="col-xs-6">
-         
-         </div>
-         <div class="col-xs-6">
-           <button class="botao" id="exc">Solicitar</button>
-         </div>
-     </div>
-     </div>
-    </div>
-       <!-- BROWNIE 4 -->
-    <div class="row">
-    <div class="col-xs-12">
-      <img src="img/lBrownie.jpg" style="max-width: 1080px; width: 100%; height: auto; margin-top:10px; border-radius: 10px 10px 0px 0px;">
-      <p style="background-color:white; text-align:center; font-size:20px;">Brownie de Limão<br><a style="background-color:white; text-align:center;color:  #FF5C72;"href="#janela4" rel="modal">Detalhes</a></p>
-
-      <div class="window" id="janela4">
-         <button href="#" class="fechar botao" id="fechan"><i class="fa fa-times"></i></button>
-         <img src="img/lBrownie.jpg" class="img-responsive">
-         <h4 style="text-align:center;">Brownie de Limão</h4>
-         <p style="text-align:center;">R$:300,00 A Dezena</p>
-         <p style="text-align:center;">Descrição :Feito com Limão </p>
-         <div class="col-xs-6">
-           
-         </div>
-         <div class="col-xs-6">
-           <button class="botao" id="exc">Solicitar</button>
-         </div>
-     </div>
-    </div>
-    </div>
-   </div>
+   </div>  -->
+     <!-- Listagem Dos produtos Automatica -->
+     <div id="tabela"></div>
 </div>  
 </body>
 </html>
    <script src="js/jquery-3.4.1.min.js"></script>
      <script src="js/acao.js"></script>
          <script src="js/cliente.js"></script>
+           <script src="js/pesquisa.js"></script>
