@@ -14,3 +14,13 @@
  .tituloItem{
    text-align: center
  }
+ .botao{
+  background-color:  #FF5C72;
+  color: white;
+  border-style: none;
+  font-size: 22px;
+  border-radius: 0px 0px 10px 10px;
+  margin-bottom: 5px;
+  width: 100%;
+  margin-top: 0px;
+}

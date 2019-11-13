@@ -84,7 +84,9 @@ $('#logar').click(function(){
 $('#cadastrar').click(function(){
   $(location).attr('href','cadastrar.html');
 });
-
+function editarVendedor(){
+  location.href = "editarInfoVendedor.html";
+};
 
 
 

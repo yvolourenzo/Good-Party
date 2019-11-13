@@ -31,8 +31,7 @@
     background:white;
     z-index:9900;
     border-radius:10px;
-}
- 
+} 
 #mascara{
     display:none;
     position:fixed;
@@ -42,7 +41,6 @@
     z-index:9000;
     background-color:#000;
 }
- 
 .fechar{display:block; text-align:right;}
 
 .botao{
@@ -52,6 +50,14 @@
   font-size: 22px;
   border-radius: 90px;
   margin-bottom: 5px;
+  width: 50%;
+}
+#alterar{
+border-radius: 0px 0px 10px 10px;
+background-color:  rgb(236, 69, 91);
+}
+#deletar{
+border-radius: 0px 0px 10px 10px;
 }
 #exc{
   width: 100%;
@@ -69,21 +75,30 @@ label{
   height: 55px;
 }
  tr{
-    color:black;
+  color:black;
   }
-  td{
-    color:rgb(224, 68, 89);
+td{
+  color:rgb(224, 68, 89);
   }
-  #tabela{
-    background-color: white;
-    border-radius: 10px;
-    margin-top: 10%;
+#tabela{
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 10%;
   }
-  td button{
+td button{
   outline: none;
   background-color:  #FF5C72;
   color: white;
   border-style: none;
   border-radius: 20px;
   margin-top: 1px;
-  }
+}
+textarea:focus{
+    -moz-user-focus: none;
+}
+.display{
+  display:none;
+}
+.displayB{
+  display: block;
+}

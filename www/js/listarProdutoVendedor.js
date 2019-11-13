@@ -9,21 +9,19 @@ $(document).ready(function(){
 			$.each(data.produto, function(i,dados){
 				//Adicionando registros retornados na tabela
          itemProduto +=
-				"<div class='row linha itemProd' data-toggle='modal' data-target='#modalProduto' data-id='" + dados.codigo + "'><div class='col-xs-3'><img src='https://acheulean-limps.000webhostapp.com/" + dados.foto + "' alt='' style='margin-left : 1px;width: 80px;  height: 80px; text-align: center ; border-radius:120px;'></div><div class='col-xs-9'><div class='row'><div class='col-xs-6'><label for=''><br> " + dados.produto + "</label></div><div class='col-xs-6'><label for=''><strong>Descrição:</strong><br> " + dados.descricao + "</label></div></div><div class='row'><div class='col-xs-6'><label for=''><strong>Quantidade:</strong><br> " + dados.quantidade + "</label></div><div class='col-xs-6'><label for=''><strong>Valor:</strong><br> R$ " + dados.valor + "</label><button id='deletar' onclick='deletar("+dados.codigo+")'>Deletar</button></div></div></div></div><br><hr>";
+  
+        "<div class='col-xs-12 linha itemProd' data-toggle='modal' data-target='#modalProduto' data-id='" + dados.codigo + "'><img class='img-responsive' src='https://acheulean-limps.000webhostapp.com/" + dados.foto + "' style=' width: 100%; height: 200px; margin-top:10px; border-radius: 10px 10px 0px 0px;'><input id='nome' style='background-color:white; text-align:center; font-size:20px; width:100%;'  placeholder='" + dados.produto + "' readonly><input id='valor' style='background-color:white; text-align:center; font-size:20px; width:100%;'  placeholder='Valor: " + dados.valor + "' readonly><input id='quantidade' style='background-color:white; text-align:center; font-size:20px; width:100%;'  placeholder='Qntd: " + dados.quantidade + "' readonly><textarea style='background-color:white; text-align:center; font-size:20px; width:100%;'  placeholder='Descrição: " + dados.descricao + "' readonly></textarea><input class='form-control impu display' type='file' name='caminho' id='caminho' ></p><button class='botao' style='widht:50%;' id='deletar' onclick='deletar("+dados.codigo+")'>Excluir</button><button class='botao' style='widht:50%;' id='alterar' onclick='alterar("+dados.codigo+")'>Alterar</button></div></div></div></div><style>.display{display:none;}.displayB{display: block;}</style>" 
+
       });
       $("#tabela").html(itemProduto);
     },
 	});  
 });
 
-
-	// FUNÇÃO DE DELETAR PRODUTO
-//$(document).on("click","#deletar",function(){
-    //document.getElementById("idexclusao") = dados.codigo
 function deletar(arg) {
     var form_data = new FormData();
      form_data.append("codigo",arg);
-     //nao é pra vir undefined aqui ...
+  
         $.ajax({
         url:"https://acheulean-limps.000webhostapp.com/deleteProduto.php",
         method:'POST',
@@ -43,26 +41,19 @@ function deletar(arg) {
      });
 };
 
-	// FUNÇÃO DE ALTERAÇÃO DE PRODUTO
-// $(document).on("click","#deletar",function(){
-//      form_data.append("codigo",$("#codigo").val());    
-//         $.ajax({
-//         url:"https://acheulean-limps.000webhostapp.com/deleteProduto.php",
-//         method:'POST',
-//         data:form_data,
-//         contentType:false,
-//         cache:false,
-//         processData:false,
-//         success:function(dados){
-        
-//           alert('Deletado Com sucesso!');
+$('#alterar').click(function(){
+      $("#nome").prop("readonly", false);
+      alert('meu rabo');
+  desabilita();
 
-//           location.reload();
-//          },
-//          error : function (request, status, error) {
-//            alert(request.responseText);
-//          }
-//      });
-// });
+});
+function desabilita() {
+  $("#nome").prop("readonly", true);
+  $("#valor").prop("readonly", true);
+  $("#quantidade").prop("readonly", true);
+  $("#descro").prop("readonly", true);
+    alert('MEU CUZAO CHEIO DE MERDA');
+}
+
 
 
