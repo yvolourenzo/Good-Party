@@ -52,7 +52,8 @@ function desabilita() {
   $("#valor").prop("readonly", true);
   $("#quantidade").prop("readonly", true);
   $("#descro").prop("readonly", true);
-    alert('MEU CUZAO CHEIO DE MERDA');
+   
+   
 }
 
 
