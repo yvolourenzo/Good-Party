@@ -1,11 +1,10 @@
 // This is a JavaScript file
-function concluir(arg) {
-    
+function concluir(arg){  
     var form_data = new FormData();
      form_data.append("id_produto",arg);
       form_data.append("quantidade",$("#quantidade").val());
         $.ajax({
-        url:"https://acheulean-limps.000webhostapp.com/solicitaStatus.php",
+        url:"https://acheulean-limps.000webhostapp.com/enviarSolicitacao.php",
         method:'POST',
         data:form_data,
         contentType:false,

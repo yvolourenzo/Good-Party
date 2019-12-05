@@ -25,13 +25,38 @@
        </div>
      </div>
      <!-- Soli 1 -->
-     <div class="row solici" id="soli">
+     <div id="soli">
        
      </div>
 </body>
 </html>
+
 <script src="js/acao.js"></script>
     <script src="js/jquery-3.4.1.min.js"></script>
        <script src="js/hVendas.js"></script>
         <script src="js/solita.js"></script>
-         <script src="js/solicita.js"></script>
+         <script src="js/solicitaC.js"></script>
+<script>
+function cancelar(arg){  
+    var form_data = new FormData();
+     form_data.append("codigo",arg);
+        $.ajax({
+        url:"https://acheulean-limps.000webhostapp.com/cancelaSolicitacao.php",
+        method:'POST',
+        data:form_data,
+        contentType:false,
+        cache:false,
+        processData:false,
+        success:function(dados){
+     
+          alert('Sua solicitação foi cancelada com sucesso! , caso o Vendedor não tenha visto a solicitação o mesmo não será notificado!');
+
+          location.reload();
+         },
+         error : function (request, status, error) {
+           alert(request.responseText);
+         }
+     });
+};
+
+</script>

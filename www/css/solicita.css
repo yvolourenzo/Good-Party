@@ -112,3 +112,11 @@ margin-left: 50px;
 }
  
 .fechar{display:block; text-align:right;}
+.a{
+  color:white;
+  font-size: 18px;
+  text-align: center;
+}
+i{
+  margin-left: 50%;
+}

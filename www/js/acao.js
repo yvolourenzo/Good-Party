@@ -3,7 +3,10 @@ function bolos(){
   location.href = "bolos.html";
 }
 function voltarPerfilV(){
-  location.href = "perfilVendedor.html";
+  location.href = "perfilV.html";
+}
+function voltarPerfilC(){
+  location.href = "perfilC.html";
 }
 function voltarVendedor() {
   location.href = "vendedor.html";

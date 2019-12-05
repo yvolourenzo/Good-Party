@@ -31,7 +31,7 @@ function aceitar(arg) {
         processData:false,
         success:function(dados){
      
-          alert('Sua solicitação foi enviada, Seus meios para contato serão automaticamente desponibilizados para o cliente!');
+          alert('Sua solicitação foi enviada, Seus meios para contato serão automaticamente disponibilizados para o cliente!');
           location.reload();
          },
          error : function (request, status, error) {

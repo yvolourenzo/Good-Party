@@ -14,101 +14,19 @@
  
 </head>
 <body>
-   <div class="container">
-     <div class="row bar">
-       <div class="col-xs-2">
-         <button id="voltar" style="font-size:24px" onclick="voltarPerfilV()" ><i class="fa fa-mail-reply"></i></button>
-       </div>
-       <div class="col-xs-10">
-         <h3 class="tittle">Editar Dados</h3>
-       </div>
-     </div>
-     <div class="row">
-       <div class="col-xs-12">
-         <div class="form-group">
-           <input type="text" class="form-control impu" id="nome" placeholder="Nome : Jubscleusa" maxlength="15"></input>
+   <div class="container" id="info">
+     <div class='row bar'>
+       <div class='col-xs-2'>
+         <button id='voltar' style='font-size:24px' onclick='voltarPerfilV()' ><i class='fa fa-mail-reply'></i></button>
+          </div>
+         <div class='col-xs-10'>
+           <h3 class='tittle'>Editar Dados</h3>
            </div>
-       </div>
-     </div>
-     <div class="row">
-       <div class="col-xs-12">
-         <div class="form-group">
-         <input type="password" class="form-control impu" id="senha" placeholder="Senha" maxlength="15"></input>           
-         </div>
-       </div>
-     </div>
-     <div class="row">
-       <div class="col-xs-12">
-         <div class="form-group">
-           <input type="password" class="form-control impu" id="senhac" placeholder="Confirmação de Senha" maxlength="15"></input>
-           </div>
-       </div>
-     </div>
-     <div class="row">
-       <div class="col-xs-12">
-         <div class="form-group">
-           <input type="text" class="form-control impu" id="email" placeholder="Email" maxlength="15"></input>
-           </div>
-       </div>
-     </div>  
-     <div class="row">
-       <div class="col-xs-12">
-         <div class="form-group">
-           <input type="text" class="form-control impu" id="tel" placeholder="Telefone" maxlength="15"></input>
-         </div>
-       </div>
-     </div>
-     <div class="row">
-       <div class="col-xs-12">
-         <div class="form-group">
-         <select name="estados-brasil" class="form-control impu">
-	          <option id="AC">Acre</option>
-           	<option id="AL">Alagoas</option>
-          	<option id="AP">Amapá</option>
-          	<option id="AM">Amazonas</option>
-          	<option id="BA">Bahia</option>
-	          <option id="CE">Ceará</option>
-	          <option id="DF">Distrito Federal</option>
-	          <option id="ES">Espírito Santo</option>
-          	<option id="GO">Goiás</option>
-	          <option id="MA">Maranhão</option>
-	          <option id="MT">Mato Grosso</option>
-	          <option id="MS">Mato Grosso do Sul</option>
-           	<option id="MG">Minas Gerais</option>
-	          <option id="PA">Pará</option>
-	          <option id="PB">Paraíba</option>
-	          <option id="PR">Paraná</option>
-          	<option id="PE">Pernambuco</option>
-	          <option id="PI">Piauí</option>
-	          <option id="RJ">Rio de Janeiro</option>
-	          <option id="RN">Rio Grande do Norte</option>
-	          <option id="RS">Rio Grande do Sul</option>
-	          <option id="RO">Rondônia</option>
-          	<option id="RR">Roraima</option>
-	          <option id="SC">Santa Catarina</option>
-	          <option id="SP">São Paulo</option>
-          	<option id="SE">Sergipe</option>
-	          <option id="TO">Tocantins</option>
-        </select>
-         </div>
-       </div>
-     </div>
-     <div class="row">
-       <div class="col-xs-12">
-         <input type="text" class="form-control impu" id="tel" placeholder="Endereço" maxlength="15"></input>
-       </div>
-     </div>
-     <div class="row">
-         <div class="col-xs-6">
-           <button class="btn btn-info botao" id="cancelar">Cancelar</button>
-         </div>
-         <div class="col-xs-6">
-           <button class="btn btn-info botao" id="adicionar">Concluido</button>
-         </div>
-       </div>
+        </div>
    </div>
 </body>
 </html>
  <script src="js/jquery-3.4.1.min.js"></script>
        <script src="js/jquery.mask.js.min"></script>
         <script src="js/acao.js"></script>
+         <script src="js/editarInfo.js"></script>

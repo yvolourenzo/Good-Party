@@ -3,7 +3,7 @@ $('#info').empty(); //Limpando a tabela
 	$.ajax({
 		type:'POST',		//Definimos o método HTTP usado
 		dataType: 'json',	//Definimos o tipo de retorno
-		url: 'https://acheulean-limps.000webhostapp.com/listarPerfilCliente.php',//Definindo o arquivo onde serão buscados os dados
+		url: 'https://acheulean-limps.000webhostapp.com/listaPerfil.php',//Definindo o arquivo onde serão buscados os dados
 		success: function(data){
       var itemPessoa = "";
 			$.each(data.pessoa, function(i,dados){
